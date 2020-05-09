@@ -20,13 +20,15 @@
 
 <h2 id="task"> Module 1 Task Overview </h2>
 <p>Interface with a stock price data feed and set up your system for analysis of the data</p>
-<p> <b>Aim:</b> We want to process the data feed of stock A and stock B’s price to enable us to analyse when trading for the stock should occur.</p>
+<p> <b>Aim:</b> You’ve been asked to assist with some development to add a chart to a trader’s dashboard allowing them to better identify under/over-valued stocks.
+<br>
+The trader would like to be able to monitor two historically correlated stocks and be able to visualize when the correlation between the two weakens (i.e. one stock moves proportionally more than the historical correlation would imply). This could indicate a potential trade strategy to simultaneously buy the relatively underperforming stock and sell the relatively outperforming stock. Assuming the two prices subsequently converge, the trade should be profitable.</p>
 
 <ol>
-	<li>Please clone this repository to start the task</li>
-	<li>Adjust the getRatio, getDataPoint and main functions</li>
-	<li>Bonus: Pass all unit tests and add more to cover edge cases</li>
-	<li>Upload a git patch file as the submission to this task</li>
+	<li>Set up your system by downloading the necessary repository, files, tools and dependencies</li>
+	<li>You'll have to make the modifications in getDataPoint, getRation and main method for compute the right stock price.</li>
+	<li>Once you have applied changes in the client application, you now have to ensure you cover them in enough unit tests in bonus task</li>
+	<li>Generate a patch file of the changes you made</li>
 	
 </ol>
 
@@ -52,7 +54,7 @@ To start the example client, run:
 
 	python client3.py
 
-To unit test the example client, run:
+To test the example client, run:
 	python client_test.py
 
 <h2>How to request from the server using curl</h2>
@@ -64,7 +66,9 @@ Query:
 
 <h2>How to fix the code to meet objectives</h2>
 <p>To make the changes necessary to complete the objectives of this task, <a href="https://insidesherpa.s3.amazonaws.com/vinternships/companyassets/Sj7temL583QAYpHXD/making_changes_m1_v4a.pdf">follow this guide</a>.</p>
-<p>To do the bonus task, <a href="https://insidesherpa.s3.amazonaws.com/vinternships/companyassets/Sj7temL583QAYpHXD/client_test_m1_v1a.pdf">read this</a>.</p>
+<p>Bonus Task <br>
+The bonus task is completely optional and servers as a bonus. This task involves adding tests to the methods in the client application so that developers are more confident these methods work as expected with different inputs given to them.
+<a href="https://insidesherpa.s3.amazonaws.com/vinternships/companyassets/Sj7temL583QAYpHXD/client_test_m1_v1a.pdf">A link to a guide on how to do this</a></p>
 
-<h2>How to submit your work</h2>
-<p>A patch file is what is required from you to submit. To create a patch file, <a href="https://insidesherpa.s3.amazonaws.com/vinternships/companyassets/Sj7temL583QAYpHXD/create_patch_file_v3a.pdf">follow this guide</a>. Then submit the patch file in the <a href="https://www.insidesherpa.com/modules/R5iK7HMxJGBgaSbvk/gtAhtcvke9AFCzqME">JPM Module 1 Page</a>.</p>
+<h2>Submitting Changes</h2>
+<p>Please upload a git patch file as the submission to this task <a href="https://insidesherpa.s3.amazonaws.com/vinternships/companyassets/Sj7temL583QAYpHXD/create_patch_file_v3a.pdf">To generate a patch file, follow the guide</a></p>
