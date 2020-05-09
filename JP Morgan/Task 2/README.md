@@ -11,27 +11,24 @@
 	| 
 	<b><a href="https://www.insidesherpa.com/modules/R5iK7HMxJGBgaSbvk/88AisH7iuw3L5N5ig" target="_blank">Link to Module 2</a></b>
 
-<h1> Introduction</h1> 
-<b> Experience Technology at JP Morgan Chase </b>
-<p>Try out what real work is like in the technology team JP Morgan Chase. Fast track to the tech team with your work.</p>
+<h2 id="task">Here is the background information on your task</h2>
+<p>Typically, traders monitor stock prices and trading strategies by having data displayed visually on their screens in chart form. Often these charts will be accompanied by alerts that notify users when certain events occur or when preset price thresholds are hit.
+JPMorgan Chase created the Perspective tool over many years to allows users to present and manipulate data feeds visually in web applications.<br>
+Perspective provides a set of flexible data transforms, such as pivots, filters, and aggregations. It utilizes bleeding-edge browser technology such as Web Assembly and Apache Arrow and is unmatched in browser performance. It is engineered for reliability and production-vetted on the JPMorgan Chase trading floor and is now available to the development community as Open Source. If you want to explore that, a link is provided in the resources section. </p>
 
-<h2 id="task"> Module 2 Task Overview </h2>
-<p>Use JP Morgan Chase's frameworks and tools
-Implement JP Morgan Chase’s Perspective open source code in preparation for data visualization</p>
-<p> <b>Aim:</b>Take an incomplete setup of Perspective, i.e. a graph that updates manually, and make it work with the code from Task 1 such that it now updates automatically by continuously requesting from the server application</p>
+<h2>Purpose</h2>
+<p>The objective of this task will be for you to fix the client-side web application so that it displays a graph that automatically updates as it gets data from the server application (see Before and After images below) Currently, the web application only gets data every time you click on the 'Start Streaming Data' button and does not aggregate duplicated data.</p>
 
 <ol>
-	<li>Please clone this repository to start the task</li>
-	<li>[goal-a] In the client application, observe that when new data feed is retrieved whenever you click the 'Start Streaming Data' button, the previous entry is re-entered into the table. Update the application so that the table does not have duplicated entries</li>
-	<li>[goal-b] We also want the react app to keep continuosly requesting data from the python server. Currently, the data feed is called only once every time the 'Start Streaming' button is clicked. Change the application to continuously query the datafeed every 100ms when the 'Start Streaming' is clicked.</li>
-	<li>[goal-c] Currently, the Perspective element only shows the data in table view after the data loads. Add Perspective configurations so that when the data is loaded, it shows the historical data of ask_price ABC in the Y line chart.</li>
-	<li>Upload a git patch file as the submission to this task</li>	
+<li>Set up your system by downloading the necessary files, tools and dependencies.</li>
+<li>Fix the broken typescript files in repository to make the web application output correctly</li>
+<li>Generate a patch file of the changes you made.</li>	
 </ol>
 
-<h2 id="installation" >Set up / Installation</h2>
-<p>In order to get the server and client application code working on your machine, <a href="https://insidesherpa.s3.amazonaws.com/vinternships/companyassets/Sj7temL583QAYpHXD/setup_devenv_m2_v8.pdf">follow the setup here</a></p>
+<h2 id="installation">Set Up</h2>
+<p>Before you can tackle any software or development task you need to set up your development environment. Your development environment refers to your system having all the required software installed to modify the code, as well as getting the code of the project itself onto your computer. <br>
+<a href="https://insidesherpa.s3.amazonaws.com/vinternships/companyassets/Sj7temL583QAYpHXD/setup_devenv_m2_v8.pdf">To do this we've created a simple PDF guide on how to get your environment set up</a></p>
 
-<p><b>Note</b>:This is the version of the JPM 2 exercise that uses Python 3. The Python 2.7 version is in <a href="https://github.com/insidesherpa/JPMC-tech-task-2">this other repo</a></p>
 
 <h2>How to Run</h2>
 
@@ -61,5 +58,6 @@ Open http://localhost:3000 to view the app in the browser. The page will reload 
 <h2>How to fix the code to meet the objectives</h2>
 <p>To make the changes necessary to complete the objectives of this task, <a href="https://insidesherpa.s3.amazonaws.com/vinternships/companyassets/Sj7temL583QAYpHXD/making_changes_m2_v2.pdf">follow this guide</a>.</p>
 
-<h2>How to submit your work</h2>
-<p>A patch file is what is required from you to submit. To create a patch file, <a href="https://insidesherpa.s3.amazonaws.com/vinternships/companyassets/Sj7temL583QAYpHXD/create_patch_file_v3a.pdf">follow this guide</a>. Then submit the patch file in the <a href="https://www.insidesherpa.com/modules/R5iK7HMxJGBgaSbvk/88AisH7iuw3L5N5ig">JPM Module 2 Page</a>.</p>
+<h2>Submitting Changes</h2>
+<p>Once you've done this, please submit the patch file as your task deliverable <br>
+<a href="https://insidesherpa.s3.amazonaws.com/vinternships/companyassets/Sj7temL583QAYpHXD/create_patch_file_v3a.pdf">To generate a patch file, follow the guide</a></p>
