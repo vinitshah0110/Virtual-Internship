@@ -11,34 +11,29 @@
 	<b><a href="https://www.insidesherpa.com/modules/R5iK7HMxJGBgaSbvk/EbtbrgmwKbgqcXyGt" target="_blank">Link to Module 3</a></b>	
 </p>
 
-<h1> Introduction</h1> 
-<b> Experience Technology at JP Morgan Chase </b>
-<p>Try out what real work is like in the technology team at JP Morgan Chase & Co. Fast track to the tech team with your work.</p>
 
-<h2 id="task"> Module 3 Task Overview </h2>
-Display data visually for traders.
-Use Perspective to create the chart for the trader’s dashboard.
+<h2 id="task">Here is the background information on your task </h2>
+<p>Being able to access and  adjust data feeds is critical to any trading analysis and stock price monitoring. From the previous tasks, we now have the adjusted data set up on your systems and being piped into Perspective.<br>
+For traders to have a complete picture of all the trading strategies being monitored, several screens typically display an assortment of live and historical data at their workstation.<br>
+Given there is a lot of information and data being produced at once, visualizing data in a clear manner with UI/UX considerations accounted for is critical to providing traders with the tools to improve their performance.</p>
 
-<b>Aim:</b> Use Perspective to generate a chart that displays the data feed in a clear and visually appealing manner for traders to monitor this trading strategy. Basically, you have to modify the existing live chart to be able to (1) track and display the ratio between the two stock prices (2) show the historical upper and lower bounds of the stocks' ratio (3) and finally, show 'alerts'  whenever these bounds are crossed by the ratio.
+<b>Purpose</b> 
+<p>You will use perspective to generate a live graph that displays the data feed in a clear and visually appealing way for traders to monitor this trading strategy. <br>
+Recall that the purpose of this graph is to monitor and determine when a trading opportunity may arise as a result of the temporary weakening of a correlation between two stock prices. Given this graph, the trader should be able to quickly and easily notice when the ratio moves too far from the average historical correlation. In the first instance, we'll assume that threshold is +/-10% of the 12 month historical average ratio.</p>
 
 <ol>
-	<li>Please clone this repository to start the task</li>
-	<li>From the existing live graph, update it to track the ratio between two stocks over time and NOT the two stocks’ top_ask_price over time.</li>
-	<li>Update the graph to also track the historical upper and lower bounds of the stocks' ratio</li>
-	<li>Trigger 'alerts' (i.e. draw red lines) on the graph whenever the bounds are crossed by the calculated ratio in a specific time period</li>
-	<li>Upload a git patch file as the submission to this task</li>	
-  	<li>Upload a video detailing your process and work</li>
+<li>Set up your system by downloading the necessary files, tools and dependencies. </li>
+<li>Modify the typescript files in repository to make the web application behave in the expected manner</li>
+<li>Generate a patch file of the changes you made.</li>
 </ol>
 
-<h2 id="installation" >Setup / Installation</h2>
-<p>In order to get the server and client application code working on your machine, <a href="https://insidesherpa.s3.amazonaws.com/vinternships/companyassets/Sj7temL583QAYpHXD/setup_devenv_m3_v3.pdf">follow the setup here</a></p>
+<h2 id="installation">Set Up</h2>
+<p>Before you can tackle any software or development task you need to set up your development environment. Your development environment refers to your system having all the required software installed to modify the code, as well as getting the code of the project itself onto your computer. <br>
+<a href="https://insidesherpa.s3.amazonaws.com/vinternships/companyassets/Sj7temL583QAYpHXD/setup_devenv_m3_v3.pdf">To do this we've created a simple PDF guide on how to get your environment set up:</a></p>
 
-<p><b>Note</b>:This is the version of the JPM 3 exercise that uses Python 3. The Python 2.7 version is in <a href="https://github.com/insidesherpa/JPMC-tech-task-3">this other repo</a></p>
 
-<h2>How to Run</h2>
-<p>Similar to Task 2, start the data feed server by running the python server</p>
-<p>Make sure your terminal / command line is in the repository first before doing any of this.</p>
-<p>If you are using Windows, make sure to run your terminal/command prompt as administrator.</p>
+<h2>Local Setup (Windows) </h2>
+<p>You can start the server application in one terminal by just executing it:
 
 <code>python datafeed/server3.py</code>
 
@@ -61,5 +56,6 @@ Open http://localhost:3000 to view the app in the browser. The page will reload 
 <h2>How to fix the code to meet the objectives</h2>
 <p>To make the changes necessary to complete the objectives of this task, <a href="https://insidesherpa.s3.amazonaws.com/vinternships/companyassets/Sj7temL583QAYpHXD/making_changes_m3_v2.pdf">follow this guide</a>.</p>
 
-<h2>How to submit your work</h2>
-<p>A patch file is what is required from you to submit. To create a patch file, <a href="https://insidesherpa.s3.amazonaws.com/vinternships/companyassets/Sj7temL583QAYpHXD/create_patch_file_v3a.pdf">follow this guide</a>. Then submit the patch file in the <a href="https://www.insidesherpa.com/modules/R5iK7HMxJGBgaSbvk/EbtbrgmwKbgqcXyGt">JPM Module 3 Page</a>.</p>
+<h2>Submitting Changes</h2>
+<p>For this task, please submit the patch file containing the expected changes to the repository as mentioned in the acceptance criteria above.<br>
+<a href="https://insidesherpa.s3.amazonaws.com/vinternships/companyassets/Sj7temL583QAYpHXD/create_patch_file_v3a.pdf">To generate a patch file, follow the guide</a></p>
