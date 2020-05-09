@@ -16,7 +16,7 @@
 
 <h1> Introduction</h1> 
 <b> Experience Technology at JP Morgan Chase & Co</b>
-<p>Try out what real work is like in the technology team at JP Morgan Chase & Co. Fast track to the tech team with your work.</p>
+<p>You’re going to assist with some development of an alternative way to visualize and analyze share price data for our traders – this will alert them of potential trading opportunities.</p>
 
 <h2 id="task"> Module 1 Task Overview </h2>
 <p>Interface with a stock price data feed and set up your system for analysis of the data</p>
@@ -32,7 +32,7 @@ The trader would like to be able to monitor two historically correlated stocks a
 	
 </ol>
 
-<h2 id="installation" >Set up / Installation</h2>
+<h2 id="installation" >Set Up</h2>
 
 <p>In order to get the server and client application code working on your machine, <a href="https://insidesherpa.s3.amazonaws.com/vinternships/companyassets/Sj7temL583QAYpHXD/setup_devenv_m1_v6.pdf">follow the setup here</a></p>
 <p><b>Note:</b>This is the Python 3 version of the JPM 1 exercise. The Python 2.7 version is in <a href="https://github.com/insidesherpa/JPMC-tech-task-1">this other repo</a></p>
