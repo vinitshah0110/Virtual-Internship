@@ -66,8 +66,9 @@ Query:
 
 <h2>How to fix the code to meet objectives</h2>
 <p>To make the changes necessary to complete the objectives of this task, <a href="https://insidesherpa.s3.amazonaws.com/vinternships/companyassets/Sj7temL583QAYpHXD/making_changes_m1_v4a.pdf">follow this guide</a>.</p>
-<p>Bonus Task <br>
-The bonus task is completely optional and servers as a bonus. This task involves adding tests to the methods in the client application so that developers are more confident these methods work as expected with different inputs given to them.
+
+<h2>Bonus Task </h2>
+<p>The bonus task is completely optional and servers as a bonus. This task involves adding tests to the methods in the client application so that developers are more confident these methods work as expected with different inputs given to them.
 <a href="https://insidesherpa.s3.amazonaws.com/vinternships/companyassets/Sj7temL583QAYpHXD/client_test_m1_v1a.pdf">A link to a guide on how to do this</a></p>
 
 <h2>Submitting Changes</h2>
